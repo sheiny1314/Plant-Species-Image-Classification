@@ -279,10 +279,20 @@ The purpose of this model is to assist students, researchers, and the general pu
 
 
 Reflection Questions:
-
 Answer the following questions based on your experience:
-1. How did the number of images per class affect your model’s accuracy?
-2. Which plant species were most commonly misclassified and why?
-3. How did changing the epochs, batch size, or learning rate affect the training results?
-4. What challenges did you encounter during dataset collection and labeling?
-5. If you were to improve your model, what specific changes would you make and why?
+1. How did the number of images per class affect your model’s accuracy?<br>
+More images made the model more accurate. Less images caused more mistakes.
+
+2. Which plant species were most commonly misclassified and why?<br>
+Mentha spicata and Peperimia pellucida were often confused because their leaves look similar.
+
+3. How did changing the epochs, batch size, or learning rate affect the training results?<br>
+More epochs helped at first but too many caused overfitting.
+Small batch size trained slowly but carefully; large batch trained faster.
+High learning rate was unstable; low learning rate was slower but steady.
+
+5. What challenges did you encounter during dataset collection and labeling?<br>
+It was hard to get enough images, lighting was not always good, and some plants looked very similar.
+
+6. If you were to improve your model, what specific changes would you make and why?<br>
+Collect more images, use tricks like flipping/rotating images, take clearer pictures, and adjust training settings for better results.
